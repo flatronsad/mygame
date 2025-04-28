@@ -10,7 +10,7 @@
 #header {
     
     width: 100%;
-    height: 10vh; 
+    height: 10svh; 
     position: relative;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@
 #main {
     
     width: 100%;
-    height: 90vh;
+    height: 90svh;
     position: relative;
     display: flex;
     align-items: center;
