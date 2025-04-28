@@ -94,40 +94,7 @@
 
 }
 
-/*Модальное окно*/
 
-.modal {
-    display: none; /* Скрываем модальное окно по умолчанию */
-    position: fixed; /* Фиксируем положение */
-    z-index: 100; /* Отображаем поверх других элементов */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /* Добавляем прокрутку, если контент большой */
-    background-color: rgb(0,0,0); /* Фон затемнения */
-    background-color: rgba(0,0,0,0.4); /* Полупрозрачный фон */
-}
-
-.modal-content {
-    background-color: #fefefe; /* Белый фон */
-    margin: 15% auto; /* Центрирование */
-    padding: 20px;
-    border: 1px solid #888; /* Граница */
-    width: 80%; /* Ширина */
-}
-
-.close {
-    color: #aaa; /* Цвет текста */
-    float: right; /* Расположение справа */
-    font-size: 28px; /* Размер шрифта */
-    font-weight: bold; /* Жирный шрифт */
-}
-.close:hover,
-.close:focus {
-    color: black; /* Цвет при наведении */
-    text-decoration: none; /* Убираем подчеркивание */
-    cursor: pointer; /* Курсор-указатель */
 }
 
 
