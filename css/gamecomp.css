@@ -1,0 +1,136 @@
+* {
+    background-color: #000000;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#header {
+    border: 1px solid red;
+    width: 100%;
+    height: 10vh; 
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    align-items: center;
+}
+
+#main {
+    border: 1px solid blue;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3%;
+}
+
+#footer {
+    border: 1px solid green;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*header*/
+
+.icon-coin {
+    max-height: 40%;
+    max-width: 10%;
+    background: none;
+    position: absolute;
+    left: 3%;
+}
+
+
+
+.icon-dom {
+    max-height: 70%;
+    max-width: 20%;
+    background: none;
+    margin-right: 3%;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.icon-rules {
+    max-height: 70%;
+    max-width: 20%;
+    background: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+/*main*/
+
+.icon-noz, .icon-cam, .icon-bum {
+    
+    width: 46%;
+    height: 46%;
+    background: none;
+    max-height: 130px;
+    max-width: 130px;
+    cursor: pointer;
+}
+
+/*footer*/
+
+.text {
+    color: white;
+    font-weight: bold;
+    background: none;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*Модальное окно*/
+
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed; /* Фиксируем положение */
+    z-index: 100; /* Отображаем поверх других элементов */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Добавляем прокрутку, если контент большой */
+    background-color: rgb(0,0,0); /* Фон затемнения */
+    background-color: rgba(0,0,0,0.4); /* Полупрозрачный фон */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Белый фон */
+    margin: 15% auto; /* Центрирование */
+    padding: 20px;
+    border: 1px solid #888; /* Граница */
+    width: 80%; /* Ширина */
+}
+
+.close {
+    color: #aaa; /* Цвет текста */
+    float: right; /* Расположение справа */
+    font-size: 28px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+}
+.close:hover,
+.close:focus {
+    color: black; /* Цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer; /* Курсор-указатель */
+}
+
+
+
+
+
