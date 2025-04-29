@@ -7,11 +7,14 @@
 }
 
 
-
+#otstyp-niz {
+    
+    height: 2dvh;
+}
 
 
 #header {
-    border: 1px solid red;
+    
     width: 100%;
     height: 10dvh; 
     position: relative;
@@ -22,37 +25,35 @@
 }
 
 #main {
-    border: 1px solid blue;
+    
     width: 100%;
     height: 55dvh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 3%;
+    
 }
 
 #footer {
-    border: 1px solid green;
+    
     width: 100%;
-    height: 35dvh;
+    height: 33dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 /*header*/
 
 .icon-coin {
     max-height: 40%;
+    width: auto;
     max-width: 10%;
     background: none;
     position: absolute;
     left: 3%;
 }
-
-
 
 .icon-dom {
     margin: 0;
@@ -62,31 +63,25 @@
     max-width: 20%;
     cursor: pointer;
     background: none;
-
 }
 
 .icon-rules {
-
     margin: 0;
     max-height: 70%;
     width: auto;
     max-width: 20%;
     cursor: pointer;
     background: none;
-
-    
 }
 
 /*main*/
 
 .icon-noz, .icon-cam, .icon-bum {
-    
-    width: 46%;
-    height: 46%;
     background: none;
-    max-height: 130px;
-    max-width: 130px;
-    cursor: pointer;
+    max-height: 40%;
+    max-width: 40%;
+    height: auto;
+    width: auto;
 }
 
 /*footer*/
@@ -95,9 +90,9 @@
     color: white;
     font-weight: bold;
     background: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
-
+    text-align: center;
 }
 
 
