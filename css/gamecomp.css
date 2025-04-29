@@ -16,7 +16,7 @@
     height: 10dvh; 
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 2%;
     align-items: center;
 }
@@ -61,6 +61,7 @@
     margin-right: 3%;
     margin-left: 0;
     cursor: pointer;
+    z-index: 10;
 }
 
 .icon-rules {
@@ -69,6 +70,7 @@
     background: none;
     margin: 0;
     cursor: pointer;
+    z-index: 10;
 }
 
 /*main*/
