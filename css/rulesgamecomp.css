@@ -32,6 +32,7 @@
 .icon-back {
     max-height: 70%;
     max-width: 20%;
+    width: auto;
     background: none;
     cursor: pointer;
     position: absolute;
