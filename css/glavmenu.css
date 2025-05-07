@@ -8,6 +8,7 @@
 
 #otstyp-niz {
     
+    width: 100%;
     height: 2dvh;
 }
 
@@ -26,9 +27,6 @@
     width: 100%;
     height: 73dvh;
     position: relative;
-    
-    
-    
 }
 
 #footer {
@@ -127,7 +125,13 @@
 }
 
 
+.animatsiya {
+    transition: transform 0.1s;
+}
 
+.animatsiya:active {
+    transform: scale(0.90); 
+}
 
 
 

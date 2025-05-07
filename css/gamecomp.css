@@ -9,6 +9,7 @@
 
 #otstyp-niz {
     
+    width: 100%;
     height: 2dvh;
 }
 
@@ -82,6 +83,7 @@
     max-width: 40%;
     height: auto;
     width: auto;
+    margin: 2%;
 }
 
 /*footer*/
@@ -95,6 +97,15 @@
     text-align: center;
 }
 
+/*Анимация*/
+
+.animatsiya {
+    transition: transform 0.1s;
+}
+
+.animatsiya:active {
+    transform: scale(0.90); 
+}
 
 
 

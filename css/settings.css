@@ -29,8 +29,9 @@
     height: 88dvh;
     position: relative;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
+    gap: 10%;
 }
 
 /*header*/
@@ -45,51 +46,24 @@
     left: 3%;
 }
 
-.white-ramka {
-    width: 50%;
-    height: 70%;
-    position: absolute;
-    background-color: #fff;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*main*/
+.icon-language {
+    margin: 0;
+    margin-left: 3%;
+    max-width: 30%;
+    max-height: 20%;
+    width: auto;
+    background: none;
+    cursor: pointer;
 }
 
 .text {
-    color: black;
-    background: none;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-/*main*/
-
-.ramka {
-    width: 98%;
-    height: 98%;
-    position: absolute;
-    border: 5px solid #fff;
-    border-radius: 40px;
-    overflow: auto;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-rules {
+    margin: 0;
     color: #fff;
     background: none;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    line-height: 1.25;
-    width: 100%;
-    overflow: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 60px;
 }
 
 /*Анимация*/
