@@ -60,7 +60,7 @@
     color: black;
     background: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: clamp(0.063rem, 0.057rem + 8.14vw, 2.5rem);
     font-family: 'Roboto', sans-serif;
 }
 
