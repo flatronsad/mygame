@@ -1,7 +1,7 @@
 
 let playervibor;
 let computervibor;
-let balance = 1000;
+let balance = localStorage.getItem('localBalance')? parseFloat(localStorage.getItem('localBalance')) : 1000;
 
 const ElementNoz = document.querySelector('.icon-noz');
 const ElementCam = document.querySelector('.icon-cam');
@@ -14,8 +14,11 @@ const ElementTextRevenge = document.querySelector('.modal-text-revenge');
 const ElementBalanceCoin = document.querySelector('.balance-coin');
 
 function updateBalance() {
+    localStorage.setItem('localBalance', balance);
     ElementBalanceCoin.innerHTML = balance;
 }
+
+
 
 function playerChoice(choice) {
     playervibor = choice;
